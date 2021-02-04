@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Demo</title>
+  </head>
+  <body class="body-background">
+    <!-- uk-parallax="background-color: rgba(247,247,247,0),rgba(247,247,255,0.95),#f7f7ff;"-->
+    <div
+      uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; cls-inactive: uk-navbar-transparent"
+    >
+      <nav
+        class="uk-navbar-container"
+        uk-navbar
+        style="position: relative; z-index: 980"
+      >
+        <div class="navbar-container">
+          <div class="uk-navbar-left">
+            <ul class="uk-navbar-nav">
+              <li>
+                <a class="uk-navbar-item uk-logo" href="#" uk-scroll
+                  ><img
+                    src="assets/vectors/triangle logo beli2.svg"
+                    width="80"
+                    height="80"
+                    uk-svg
+                /></a>
+              </li>
+              <li>
+                <a
+                  href="#pricing"
+                  class="uk-text-emphasis uk-text-light underline"
+                  uk-scroll="offset: 90"
+                  >Pricing</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#gallery"
+                  class="uk-text-emphasis uk-text-light underline"
+                  uk-scroll="offset: 90"
+                  >Gallery</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  class="uk-text-emphasis uk-text-light underline"
+                  uk-scroll="offset: 90"
+                  >Contact</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#contact"
+                  class="uk-text-emphasis uk-text-light underline"
+                  uk-scroll="offset: 90"
+                  >Pravilnik</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- HERO Section-->
+    <div
+      class="uk-background-cover triangle-path"
+      style="position: relative; top: -100px; margin-bottom: -50px"
+      data-src="./assets/images/blur_background.jpg"
+      uk-img
+      uk-parallax="bgy: -200"
+      uk-height-viewport="offset-bottom:0"
+    >
+      <div class="background-blur"></div>
+      <div class="uk-container overlay">
+        <div
+          class="uk-grid uk-padding-large uk-padding-remove-horizontal uk-padding-remove-bottom"
+        >
+          <div class="uk-width-1-2@m uk-align-center">
+            <h1
+              class="uk-heading-large uk-text-emphasis uk-text-center uk-text-lighter"
+            >
+              Welcome 1
+            </h1>
+            <p class="uk-text-center uk-text-emphasis uk-text-lighter" style="">
+              Far far away, behind the word mountains, far from the countries
+              Vokalia and Consonantia, there live the blind texts. Separated
+              they live in Bookmarksgrove right at the coast of the Semantics, a
+              large language ocean. A small river named Duden flows by their
+              place and supplies it with the necessary regelialia.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="uk-container uk-margin-top" id="pricing">
+      <!-- PRICING SECTION -->
+      <h2
+        class="uk-text-primary uk-heading-bullet uk-text-light uk-heading-medium"
+      >
+        Pricing
+      </h2>
+      <div
+        class="uk-flex uk-flex-middle uk-grid-small uk-child-width-expand@m"
+        uk-grid
+      >
+        <div class="uk-margin-top">
+          <div class="uk-card uk-background-muted uk-card-body">
+            <div class="uk-card-badge uk-label uk-background-secondary">
+              New
+            </div>
+            <h4 class="uk-margin-remove-bottom">Basic</h4>
+            <p class="uk-text-meta uk-margin-remove-top">
+              Great for trying our APIs
+            </p>
+            <hr />
+            <h3 class="uk-margin-remove-top">Free</h3>
+            <button class="uk-button uk-button-primary uk-width-expand">
+              Sign Up
+            </button>
+            <p class="uk-text-emphasis">
+              <span
+                class="uk-margin-small-right uk-text-primary"
+                uk-icon="check"
+              ></span>
+              5 API Calls / Minute
+            </p>
+            <p class="uk-text-emphasis">
+              <span
+                class="uk-margin-small-right uk-text-primary"
+                uk-icon="check"
+              ></span>
+              End of Day Data
+            </p>
+            <p class="uk-text-emphasis">
+              <span
+                class="uk-margin-small-right uk-text-primary"
+                uk-icon="check"
+              ></span>
+              2 Years Historical Data
+            </p>
+            <p class="uk-text-emphasis">
+              <span
+                class="uk-margin-small-right uk-text-primary"
+                uk-icon="check"
+              ></span>
+              100% Market Coverage
+            </p>
+            <p class="uk-text-emphasis">
+              <span
+                class="uk-margin-small-right uk-text-primary"
+                uk-icon="check"
+              ></span>
+              Reference Data
+            </p>
+            <p class="uk-text-muted">
+              <span class="uk-margin-small-right" uk-icon="close"></span>
+              Snapshots
+            </p>
+            <p class="uk-text-muted">
+              <span class="uk-margin-small-right" uk-icon="close"></span>
+              WebSocket
+            </p>
+          </div>
+        </div>
+        <div class="uk-margin-top">
+          <div class="uk-card uk-background-muted uk-card-body">
+            <div class="uk-card-badge uk-label uk-background-secondary">
+              Popular
+            </div>
+            <h4 class="uk-margin-remove-bottom">Starter</h4>
+            <p class="uk-text-meta uk-margin-remove-top">
+              Great for Historical Data
+            </p>
+            <hr />
+            <h3 class="uk-margin-remove-top">
+              $99<span class="uk-text-muted uk-text-small">/m</span>
+            </h3>
+            <button class="uk-button uk-button-primary uk-width-expand">
+              Sign Up
+            </button>
+            <p class="uk-text-emphasis">
+              <span
+                class="uk-margin-small-right uk-text-primary"
+                uk-icon="check"
+              ></span>
+              5 API Calls / Minute
+            </p>
+            <p class="uk-text-emphasis">
+              <span
+                class="uk-margin-small-right uk-text-primary"
+                uk-icon="check"
+              ></span>
+              End of Day Data
+            </p>
+            <p class="uk-text-emphasis">
+              <span
+                class="uk-margin-small-right uk-text-primary"
+                uk-icon="check"
+              ></span>
+              2 Years Historical Data
+            </p>
+            <p class="uk-text-emphasis">
+              <span
+                class="uk-margin-small-right uk-text-primary"
+                uk-icon="check"
+              ></span>
+              100% Market Coverage
+            </p>
+            <p class="uk-text-emphasis">
+              <span
+                class="uk-margin-small-right uk-text-primary"
+                uk-icon="check"
+              ></span>
+              Reference Data
+            </p>
+            <p class="uk-text-emphasis">
+              <span
+                class="uk-margin-small-right uk-text-primary"
+                uk-icon="check"
+              ></span>
+              Snapshots
+            </p>
+            <p class="uk-text-muted">
+              <span class="uk-margin-small-right" uk-icon="close"></span>
+              WebSocket
+            </p>
+          </div>
+        </div>
+        <div class="uk-margin-top">
+          <div
+            class="uk-card uk-background-muted uk-card-body uk-background-muted"
+          >
+            <h4 class="uk-margin-remove-bottom">Developer</h4>
+            <p class="uk-text-meta uk-margin-remove-top">
+              Great for Real Time Data
+            </p>
+            <hr />
+            <h3 class="uk-margin-remove-top">
+              $199<span class="uk-text-muted uk-text-small">/m</span>
+            </h3>
+            <button class="uk-button uk-button-primary uk-width-expand">
+              Sign Up
+            </button>
+            <p class="uk-text-emphasis">
+              <span
+                class="uk-margin-small-right uk-text-primary"
+                uk-icon="check"
+              ></span>
+              5 API Calls / Minute
+            </p>
+            <p class="uk-text-emphasis">
+              <span
+                class="uk-margin-small-right uk-text-primary"
+                uk-icon="check"
+              ></span>
+              End of Day Data
+            </p>
+            <p class="uk-text-emphasis">
+              <span
+                class="uk-margin-small-right uk-text-primary"
+                uk-icon="check"
+              ></span>
+              2 Years Historical Data
+            </p>
+            <p class="uk-text-emphasis">
+              <span
+                class="uk-margin-small-right uk-text-primary"
+                uk-icon="check"
+              ></span>
+              100% Market Coverage
+            </p>
+            <p class="uk-text-emphasis">
+              <span
+                class="uk-margin-small-right uk-text-primary"
+                uk-icon="check"
+              ></span>
+              Reference Data
+            </p>
+            <p class="uk-text-emphasis">
+              <span
+                class="uk-margin-small-right uk-text-primary"
+                uk-icon="check"
+              ></span>
+              Snapshots
+            </p>
+            <p class="uk-text-emphasis">
+              <span
+                class="uk-margin-small-right uk-text-primary"
+                uk-icon="check"
+              ></span>
+              WebSocket
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Gallery Section -->
+    <div class="uk-container uk-margin-xlarge-top" id="gallery">
+      <div class="uk-grid-large" uk-grid>
+        <div class="uk-width-1-3@m uk-grid-item-match">
+          <h2
+            class="uk-text-primary uk-heading-bullet uk-text-light uk-heading-medium"
+          >
+            Gallery
+          </h2>
+          <p class="uk-text-emphasis uk-text-lighter uk-text-large">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts. Separated they
+            live in Bookmarksgrove right at the coast of the Semantics, a large
+            language ocean.
+          </p>
+        </div>
+        <div class="uk-width-expand">
+          <div
+            class="uk-position-relative uk-light uk-box-shadow-xlarge uk-dark"
+            tabindex="-1"
+            uk-slideshow="animation: pull; autoplay: true"
+          >
+            <ul class="uk-slideshow-items">
+              <li class="">
+                <img src="assets/images/DSC-2558.jpg" uk-cover />
+              </li>
+              <li class="">
+                <img src="assets/images/DSC-3205.JPG" uk-cover />
+              </li>
+              <li class="">
+                <img src="assets/images/DSC-3192.JPG" uk-cover />
+              </li>
+              <li class="">
+                <img src="assets/images/DSC-3227.JPG" uk-cover />
+              </li>
+              <li class="">
+                <img src="assets/images/IMG-2881.JPG" uk-cover />
+              </li>
+            </ul>
+            <a
+              class="uk-position-center-left uk-position-small uk-hidden-hover"
+              href="#"
+              uk-slidenav-previous
+              uk-slideshow-item="previous"
+            ></a>
+            <a
+              class="uk-position-center-right uk-position-small uk-hidden-hover"
+              href="#"
+              uk-slidenav-next
+              uk-slideshow-item="next"
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+    <div class="uk-container uk-margin-xlarge-top" id="contact">
+      <div class="uk-grid-large uk-flex-wrap-reverse" uk-grid>
+        <div class="uk-width-2-3@m uk-grid-item-match">
+          <iframe
+            class="uk-box-shadow-xlarge"
+            src="https://www.google.com/maps?q=Triangle%20Gym%2C%20Vojvode%20Stepe%2C%20Belgrade%2C%20Serbia&z=14&t=&ie=UTF8&output=embed"
+          ></iframe
+          ><noscript>
+            Full functionality of this site requires JavaScript to be enabled.
+            Learn how to
+            <a href="https://javascriptdownload.org/">Enable JavaScript</a> in
+            your browser.</noscript
+          >
+        </div>
+        <div class="uk-width-expand@m">
+          <h2
+            class="uk-text-primary uk-heading-bullet uk-heading-medium uk-text-light"
+          >
+            Contact Us
+          </h2>
+          <p class="uk-text-large uk-text-emphasis uk-text-lighter">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia, there live the blind texts. Separated they
+            live in Bookmarksgrove right at the coast of the Semantics, a large
+            language ocean.
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer class="uk-container uk-margin-large-top"></footer>
+    <script src="bundle.js"></script>
+  </body>
+</html>
