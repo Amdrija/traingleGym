@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html>
+<html lang="sr">
   <head>
     <meta charset="utf-8" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" conent="Triangle Gym, teretana iz kraja." />
+    <meta name="description" content="Triangle Gym, teretana iz kraja." />
     <title>Triangle Gym</title>
   </head>
   <body class="body-background">
@@ -147,12 +147,12 @@
             <div class="uk-card-badge uk-label uk-background-secondary">
               New
             </div>
-            <h4 class="uk-margin-remove-bottom">Basic</h4>
+            <h3 class="uk-margin-remove-bottom">Basic</h3>
             <p class="uk-text-meta uk-margin-remove-top">
               Great for trying our APIs
             </p>
             <hr />
-            <h3 class="uk-margin-remove-top">Free</h3>
+            <h4 class="uk-margin-remove-top">Free</h4>
             <button class="uk-button uk-button-primary uk-width-expand">
               Sign Up
             </button>
@@ -206,14 +206,14 @@
             <div class="uk-card-badge uk-label uk-background-secondary">
               Popular
             </div>
-            <h4 class="uk-margin-remove-bottom">Starter</h4>
+            <h3 class="uk-margin-remove-bottom">Starter</h3>
             <p class="uk-text-meta uk-margin-remove-top">
               Great for Historical Data
             </p>
             <hr />
-            <h3 class="uk-margin-remove-top">
+            <h4 class="uk-margin-remove-top">
               $99<span class="uk-text-muted uk-text-small">/m</span>
-            </h3>
+            </h4>
             <button class="uk-button uk-button-primary uk-width-expand">
               Sign Up
             </button>
@@ -269,14 +269,14 @@
           <div
             class="uk-card uk-background-muted uk-card-body uk-background-muted"
           >
-            <h4 class="uk-margin-remove-bottom">Developer</h4>
+            <h3 class="uk-margin-remove-bottom">Developer</h3>
             <p class="uk-text-meta uk-margin-remove-top">
               Great for Real Time Data
             </p>
             <hr />
-            <h3 class="uk-margin-remove-top">
+            <h4 class="uk-margin-remove-top">
               $199<span class="uk-text-muted uk-text-small">/m</span>
-            </h3>
+            </h4>
             <button class="uk-button uk-button-primary uk-width-expand">
               Sign Up
             </button>
@@ -358,39 +358,74 @@
           >
             <ul class="uk-slideshow-items">
               <li class="">
-                <img
-                  src="assets/images/DSC-2558-min.jpg"
-                  uk-cover
-                  alt="triangle gym equipement and space"
-                />
+                <picture>
+                  <source
+                    srcset="assets/images/DSC-2558-min.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="assets/images/DSC-2558-min.jpg"
+                    uk-cover
+                    alt="triangle gym equipement and space"
+                    uk-img="target: !ul > :last-child, !* +*"
+                  />
+                </picture>
               </li>
               <li class="">
-                <img
-                  src="assets/images/DSC-3205-min.jpg"
-                  uk-cover
-                  alt="group picture of people who traing in triangle gym"
-                />
+                <picture>
+                  <source
+                    srcset="assets/images/DSC-3205-min.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="assets/images/DSC-3205-min.jpg"
+                    uk-cover
+                    alt="triangle gym equipement and space"
+                    uk-img="target: !* -*, !* +*"
+                  />
+                </picture>
               </li>
               <li class="">
-                <img
-                  src="assets/images/DSC-3192-min.jpg"
-                  uk-cover
-                  alt="traingle gym trainer instructing trainees"
-                />
+                <picture>
+                  <source
+                    srcset="assets/images/DSC-3192-min.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="assets/images/DSC-3192-min.jpg"
+                    uk-cover
+                    alt="triangle gym equipement and space"
+                    uk-img="target: !* -*, !* +*"
+                  />
+                </picture>
               </li>
               <li class="">
-                <img
-                  src="assets/images/DSC-3227-min.jpg"
-                  uk-cover
-                  alt="two girls doing push ups while one of their hands is on the ball"
-                />
+                <picture>
+                  <source
+                    srcset="assets/images/DSC-3227-min.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="assets/images/DSC-3227-min.jpg"
+                    uk-cover
+                    alt="triangle gym equipement and space"
+                    uk-img="target: !* -*, !* +*"
+                  />
+                </picture>
               </li>
               <li class="">
-                <img
-                  src="assets/images/IMG-2881-min.jpg"
-                  uk-cover
-                  alt="the team behind triangle gym"
-                />
+                <picture>
+                  <source
+                    srcset="assets/images/IMG-2881-min.webp"
+                    type="image/webp"
+                  />
+                  <img
+                    src="assets/images/IMG-2881-min.jpg"
+                    uk-cover
+                    alt="triangle gym equipement and space"
+                    uk-img="target: !* -*, !* +*"
+                  />
+                </picture>
               </li>
             </ul>
             <a
