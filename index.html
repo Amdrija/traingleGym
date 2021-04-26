@@ -31,11 +31,11 @@
           class="uk-hidden@s uk-background-muted uk-width-1-1 uk-flex-row uk-flex-left"
         >
           <span
+            id="menu-icon"
             class="uk-text-emphasis uk-padding-small"
             uk-icon="icon: menu; ratio: 1.6"
-            data-uk-toggle="target: .navbar-collapse2; animation: uk-animation-scale-up uk-transform-origin-top-left, uk-animation-scale-up uk-transform-origin-top-left uk-animation-reverse"
-          >
-          </span>
+            data-uk-toggle="target: .navbar-collapse; cls: hidden-up-to-s"></span>
+            </span>
           <a
             href="#"
             uk-scroll
@@ -49,7 +49,7 @@
           /></a>
         </div>
 
-        <div class="navbar-container navbar-collapse2" hidden>
+        <div class="navbar-container navbar-collapse hidden-up-to-s" id="toggle-menu">
           <div class="uk-navbar-left background-muted-up-to-s">
             <ul class="uk-navbar-nav display-block-up-to-s">
               <li class="hidden-up-to-s">
@@ -65,32 +65,36 @@
               <li>
                 <a
                   href="#pricing"
-                  class="uk-text-emphasis uk-text-light underline display-font"
+                  class="uk-text-emphasis uk-text-light underline display-font navigation-link"
                   uk-scroll="offset: 90"
+                  data-uk-toggle="target: .navbar-collapse; cls: hidden-up-to-s"
                   >Cenovnik</a
                 >
               </li>
               <li>
                 <a
                   href="#gallery"
-                  class="uk-text-emphasis uk-text-light underline display-font"
+                  class="uk-text-emphasis uk-text-light underline display-font navigation-link"
                   uk-scroll="offset: 90"
+                  data-uk-toggle="target: .navbar-collapse; cls: hidden-up-to-s"
                   >Galerija</a
                 >
               </li>
               <li>
                 <a
                   href="#contact"
-                  class="uk-text-emphasis uk-text-light underline display-font"
+                  class="uk-text-emphasis uk-text-light underline display-font navigation-link"
                   uk-scroll="offset: 90"
+                  data-uk-toggle="target: .navbar-collapse; cls: hidden-up-to-s"
                   >Kontakt</a
                 >
               </li>
               <li>
                 <a
                   href="#pravilnik"
-                  class="uk-text-emphasis uk-text-light underline display-font"
+                  class="uk-text-emphasis uk-text-light underline display-font navigation-link"
                   uk-scroll="offset: 90"
+                  data-uk-toggle="target: .navbar-collapse; cls: hidden-up-to-s"
                   >Pravilnik</a
                 >
               </li>
@@ -563,7 +567,7 @@
       >
         Pravilnik
       </h2>
-          <ul class="uk-list uk-grid-large uk-flex-wrap-reverse" uk-grid>
+          <ul class="uk-list uk-grid-large uk-flex-wrap" uk-grid>
             <li class="uk-width-1-2@m">
               <h3 class="uk-text-secondary uk-heading-xsmall uk-text-light uk-heading-bullet">Dođi na vreme</h3>
               <p class="uk-text-emphasis">
